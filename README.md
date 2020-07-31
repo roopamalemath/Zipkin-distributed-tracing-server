@@ -3,13 +3,14 @@
 add a dependency in all all these microservices
 
 <dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
-		</dependency>
+<groupId>org.springframework.cloud</groupId>
+<artifactId>spring-cloud-starter-sleuth</artifactId>
+</dependency>
+
+<dependency>
+<groupId>org.springframework.cloud</groupId>
+<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+</dependency>
     
     no other configuration is required other than dependencies
     
